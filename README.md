@@ -41,15 +41,15 @@ docker-compose up -d
 - [ ] Crear una nueva  rama (ex. : `usermame/language`)
 - [ ] Añadir un contenedor docker (para el lenguage elegido) al  docker-compose (NO ES NECESARIA ESTA PARTE)
 ### Objetivos del módulo  
-- [ ] Comprender cómo detectar las diferentes  [peticiones HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
+- [x] Comprender cómo detectar las diferentes  [peticiones HTTP](https://developer.mozilla.org/es/docs/Web/HTTP/Methods)
   (GET, POST, PUT, PATCH, DELETE)
-- [ ] Implementación del CRUD sobre el endpoint `/beer*`
-   - [ ] Implementar la creación       **`C`**`reate`
-   - [ ] Implementar la lectura        **`R`**`ead`
-   - [ ] Implementar la actualilzación **`U`**`pdate`
-   - [ ] Implementar el borrado        **`D`**`elete`
-- [ ] Implementar la lectura de los endpoints `/brewerie*`, `/categorie*` et `/style*`
-- [ ] Probar la API con
+- [x] Implementación del CRUD sobre el endpoint `/beer*`
+   - [x] Implementar la creación       **`C`**`reate`
+   - [x] Implementar la lectura        **`R`**`ead`
+   - [x] Implementar la actualilzación **`U`**`pdate`
+   - [x] Implementar el borrado        **`D`**`elete`
+- [x] Implementar la lectura de los endpoints `/brewerie*`, `/categorie*` et `/style*`
+- [x] Probar la API con
   - [postman](https://www.postman.com/),
   - [insomnia](https://insomnia.rest), 
   - [curl](https://curl.haxx.se/), 
