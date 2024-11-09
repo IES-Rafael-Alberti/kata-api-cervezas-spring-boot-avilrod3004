@@ -21,12 +21,14 @@ public class StyleController {
         this.styleService = styleService;
     }
 
+    // Listar todos los estilos
     @GetMapping
     public ResponseEntity<Page<Style>> listarEstilos(Pageable pageable) {
         Page<Style> categorias = styleService.listarEstilos(pageable);
         return ResponseEntity.ok(categorias);
     }
 
+    // Consultar los datos de un estilo por el id
     @GetMapping("/{id}")
     public ResponseEntity<Style> obtenerEstilo(@PathVariable Long id) {
         Style estilo = styleService.obtenerEstilo(id);

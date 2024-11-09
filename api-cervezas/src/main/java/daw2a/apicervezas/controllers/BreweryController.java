@@ -21,12 +21,14 @@ public class BreweryController {
         this.breweryService = breweryService;
     }
 
+    // Listar todas las cervecerías
     @GetMapping
     public ResponseEntity<Page<Brewery>> listarCervecerias(Pageable pageable) {
         Page<Brewery> cervecerias = breweryService.listarCervecerias(pageable);
         return ResponseEntity.ok(cervecerias);
     }
 
+    // Consultar los datos de una cerveceria por el id
     @GetMapping("/{id}")
     public ResponseEntity<Brewery> obtenerCerveceria(@PathVariable Long id) {
         Brewery cerveceria = breweryService.buscarCerveceria(id);

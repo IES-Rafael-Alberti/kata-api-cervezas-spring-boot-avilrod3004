@@ -20,30 +20,35 @@ public class BeerController {
         this.beerService = beerService;
     }
 
+    // Listar todas las cervezas
     @GetMapping
     public ResponseEntity<Page<Beer>> listarCervezas(Pageable pageable) {
         Page<Beer> beers = beerService.listarCervezas(pageable);
         return ResponseEntity.ok(beers);
     }
 
+    // Consultar los datos de una cerveza por id
     @GetMapping("/{id}")
     public ResponseEntity<Beer> buscarCerveza(@PathVariable Long id) {
         Beer beer = beerService.obtenerCerveza(id);
         return ResponseEntity.ok(beer);
     }
 
+    // Registrar una cerveza nueva
     @PostMapping
     public ResponseEntity<Beer> registrarCerveza(@RequestBody @Valid Beer beer) {
         Beer cervezaNueva = beerService.registrarCerveza(beer);
         return ResponseEntity.status(HttpStatus.CREATED).body(cervezaNueva);
     }
 
+    // Modificar datos de una cerveza por id
     @PutMapping("/{id}")
     public ResponseEntity<Beer> actualizarCerveza(@PathVariable Long id, @RequestBody Beer cervezaActualizada) {
         Beer cerveza = beerService.actualizarCerveza(id, cervezaActualizada);
         return ResponseEntity.ok(cerveza);
     }
 
+    // Eliminar una cerveza por id
     @DeleteMapping("/{id}")
     public ResponseEntity<Beer> eliminarCerveza(@PathVariable Long id) {
         beerService.eliminarCerveza(id);

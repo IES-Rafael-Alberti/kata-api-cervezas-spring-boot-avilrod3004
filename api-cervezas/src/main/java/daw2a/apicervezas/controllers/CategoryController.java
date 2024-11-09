@@ -21,12 +21,14 @@ public class CategoryController {
         this.categoryService = categoryService;
     }
 
+    // Listar todas las categorias
     @GetMapping
     public ResponseEntity<Page<Category>> listarCategorias(Pageable pageable) {
         Page<Category> categorias = categoryService.listarCategorias(pageable);
         return ResponseEntity.ok(categorias);
     }
 
+    // Consultar los datos de una categoria por el id
     @GetMapping("/{id}")
     public ResponseEntity<Category> obtenerCategoria(@PathVariable Long id) {
         Category categoria = categoryService.obtenerCategoria(id);
