@@ -1,0 +1,229 @@
+{
+  "content": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Classic English-Style Pale Ale",
+      "lastMod": "2010-10-24T13:53:31"
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "English-Style India Pale Ale",
+      "lastMod": "2010-06-15T19:14:38"
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Ordinary Bitter",
+      "lastMod": "2010-06-15T19:14:54"
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Special Bitter or Best Bitter",
+      "lastMod": "2010-06-15T19:15:02"
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Extra Special Bitter",
+      "lastMod": "2010-06-15T19:15:09"
+    },
+    {
+      "id": 6,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "English-Style Summer Ale",
+      "lastMod": "2010-06-15T19:15:20"
+    },
+    {
+      "id": 7,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Scottish-Style Light Ale",
+      "lastMod": "2010-06-15T19:15:28"
+    },
+    {
+      "id": 8,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Scottish-Style Heavy Ale",
+      "lastMod": "2010-06-15T19:15:37"
+    },
+    {
+      "id": 9,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Scottish-Style Export Ale",
+      "lastMod": "2010-06-15T19:15:45"
+    },
+    {
+      "id": 10,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "English-Style Pale Mild Ale",
+      "lastMod": "2010-06-15T19:16:17"
+    },
+    {
+      "id": 11,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "English-Style Dark Mild Ale",
+      "lastMod": "2010-06-15T19:16:27"
+    },
+    {
+      "id": 12,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "English-Style Brown Ale",
+      "lastMod": "2010-06-15T19:16:34"
+    },
+    {
+      "id": 13,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Old Ale",
+      "lastMod": "2010-06-15T19:16:40"
+    },
+    {
+      "id": 14,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Strong Ale",
+      "lastMod": "2010-06-15T19:16:46"
+    },
+    {
+      "id": 15,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Scotch Ale",
+      "lastMod": "2010-06-15T19:16:54"
+    },
+    {
+      "id": 16,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "British-Style Imperial Stout",
+      "lastMod": "2010-06-15T19:17:07"
+    },
+    {
+      "id": 17,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "British-Style Barley Wine Ale",
+      "lastMod": "2010-06-15T19:17:16"
+    },
+    {
+      "id": 18,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Robust Porter",
+      "lastMod": "2010-06-15T19:17:37"
+    },
+    {
+      "id": 19,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Brown Porter",
+      "lastMod": "2010-06-15T19:17:43"
+    },
+    {
+      "id": 20,
+      "category": {
+        "id": 1,
+        "catName": "British Ale",
+        "lastMod": "2010-10-24T13:50:10"
+      },
+      "styleName": "Sweet Stout",
+      "lastMod": "2010-06-15T19:17:50"
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 20,
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalPages": 8,
+  "totalElements": 141,
+  "last": false,
+  "first": true,
+  "size": 20,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "numberOfElements": 20,
+  "empty": false
+}

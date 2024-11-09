@@ -32,7 +32,7 @@ public class BeerController {
         return ResponseEntity.ok(beer);
     }
 
-    @PostMapping("/{id}")
+    @PostMapping
     public ResponseEntity<Beer> registrarCerveza(@RequestBody @Valid Beer beer) {
         Beer cervezaNueva = beerService.registrarCerveza(beer);
         return ResponseEntity.status(HttpStatus.CREATED).body(cervezaNueva);
