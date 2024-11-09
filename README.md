@@ -55,7 +55,7 @@ docker-compose up -d
   - [curl](https://curl.haxx.se/), 
   - [httpie](https://httpie.org/), etc…  
   y guardar esas peticiones en un fichero de resultados.
-- [ ] Hacer un documento que explique cómo utilizar la API
+- [x] Hacer un documento que explique cómo utilizar la API
   (con ejemplos de cada una de las consultas)
 
 Ir más lejos
